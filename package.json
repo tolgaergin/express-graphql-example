@@ -1,0 +1,39 @@
+{
+  "name": "express-graphql-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolgaergin/express-graphql-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tolgaergin/express-graphql-example/issues"
+  },
+  "homepage": "https://github.com/tolgaergin/express-graphql-example#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-graphql": "^0.6.1",
+    "graphql": "^0.8.2",
+    "hjs": "0.0.6",
+    "knex": "^0.12.6",
+    "mysql": "^2.12.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "nodemon": "^1.11.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
