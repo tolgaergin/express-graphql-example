@@ -6,6 +6,8 @@ module.exports = {
       user: 'root',
       database: 'graphql',
     },
+    debug: false,
+    pool: { min: 0, max: 10 },
   },
   production: {
     client: 'mysql',

@@ -7,6 +7,7 @@ import Schema from '../graphql/index';
 
 // https://github.com/RisingStack/graphql-server/blob/master/src/server/server.js
 // https://github.com/tjmehta/graphql-fetch
+// https://github.com/kadirahq/lokka
 
 router
   .get('/', (req, res, next) => {
